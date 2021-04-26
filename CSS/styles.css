@@ -1,11 +1,10 @@
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
 	body{
 	text-align: center;
 	margin: 0;
-	background-image: url("../images/background.png");
 	font-family:sans-serif;
-	background-color: #5e6472;
-	color: lightgrey;
+	background-color: #33415c;
+	color: #f7fff7;
 	background-size: 500vh 500vh;
 	background-repeat: no-repeat;
 	font-size: 10px;	
@@ -125,20 +124,22 @@ height: 250px;
 	bottom:0;
 	position: relative;
 	bottom:-5px;
+
 }
 
 li a{
 	display: block;
 	padding:8px;
+	padding-top:10px;
 	text-decoration: none;
 	color:white;
-	font-size: 10px;
+	font-size: 8px;
 	font-family: 'Poppins', sans-serif;
 	}
 ul{	
 	text-align: right;
 	margin:0; 
-	padding: 20px 40px 40px 10px;
+	padding: 20px 20px 40px 10px;
 	display: block;
 	list-style-type: none;
 }
@@ -158,10 +159,10 @@ li a:hover:not(.active){
 }
 
 .sec-top{
-	width: 100%;
+	width: 115%;
 	padding:20px;
 	padding-top: 20px;
-	background-color:#926e6f;
+	background-color:#9c95dc;
 	font-family: 'Poppins', sans-serif;
 	text-align: left;
 }
@@ -306,8 +307,11 @@ span{
 	width: 20%;
 }
 .hobbies-midd-container{
-	width: 105%;
+	width: 100%;
 	
+}
+.hobby img{
+	padding-top: 20px;
 }
 .hobby{
 	width: 80%;
@@ -326,7 +330,7 @@ span{
 .hobby-1{
 	width: 30%;
 	height: 50%;
-	border-radius:50%;
+	border-radius:47%;
 	background-color:#219ebc;
 	display: inline-block;
 	animation-name: hobby;
@@ -336,7 +340,7 @@ span{
 .hobby-2{
 	width: 30%;
 	height: 50%;
-	border-radius:50%;
+	border-radius:47%;
 	background-color:#219ebc;
 	display: inline-block;
 	animation-name: hobby;
@@ -346,7 +350,7 @@ span{
 .hobby-3{
 	width: 30%;
 	height: 50%;
-	border-radius:50%;
+	border-radius:47%;
 	background-color:#219ebc;
 	display: inline-block;
 	animation-name: hobby;
@@ -357,7 +361,7 @@ span{
 .hobby-4{
 	width: 30%;
 	height: 50%;
-	border-radius:50%;
+	border-radius:47%;
 	background-color:#219ebc;
 	display: inline-block;
 	animation-name: hobby;
@@ -368,7 +372,7 @@ span{
 	margin-top: 30px;
 	position:relative;
 	top:-150px;
-	left: -200px;
+	left: -130px;
 
 }
 
@@ -395,7 +399,7 @@ span{
 	width: 70%;background-color: lightgrey;
 	border-radius: 40px;
 	color: grey;
-	font-size: 15px;height: 350px;
+	font-size: 10px;height: 350px;
 	animation-name:contact-form;
 	animation-duration: 2s;
 }
@@ -411,7 +415,7 @@ margin-left: 10px;
 	margin-bottom: 10px;
 	margin-top: 40px;
 	padding-top: 30px;
-	
+	font-size: 10px;
 }
 .contact-form-2{
 	margin-top: 60px;
@@ -420,18 +424,18 @@ margin-left: 10px;
 	height: 300px;
 	background-color: lightgrey;
 	color: grey;
-	font-size: 15px;
+	font-size: 10px;
 	border-radius: 40px;
 	animation-name:contact-form-2;
 	animation-duration: 2s;
 }
 .contact-form img{
-	margin:20px 0px 0px 50px;
+	margin:-10px 0px 0px 20px;
 	float: left;
 }
 
 .contact-form-2 img{
-	margin:20px 0px 0px 50px;
+	margin:-10px 0px 0px 20px;
 	float: left;
 }
 @keyframes contact-form-2{
@@ -440,16 +444,16 @@ margin-left: 10px;
 }
 .contact-form-2 h4{
 	display: block;
-	padding-top: 30px;
+	padding-top: 40px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-
+	font-size: 10px;
 	}
 
 
 
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) {
 
 body{
 	margin: 0;
