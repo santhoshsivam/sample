@@ -398,7 +398,7 @@ span{
 	width: 70%;background-color: lightgrey;
 	border-radius: 40px;
 	color: grey;
-	float: center;
+	text-align: center;
 	font-size: 15px;height: 350px;
 	animation-name:contact-form;
 	animation-duration: 2s;
