@@ -73,6 +73,7 @@ height: 250px;
 	font-family: 'Roboto', sans-serif;
 }
 .middle-home p{
+	padding: 10px;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -95,9 +96,6 @@ height: 250px;
 	background-color: #dcffcc;
 	color:grey;
 }
-	.middle-home a{
-	padding:10px;
-	}
 .insta a{
 	padding:10px;
 	text-decoration: none;
@@ -128,9 +126,10 @@ height: 250px;
 	position: relative;
 	bottom:-5px;
 }
+
 li a{
 	display: block;
-	padding:2px;
+	padding:8px;
 	text-decoration: none;
 	color:white;
 	font-size: 10px;
@@ -146,7 +145,7 @@ ul{
 
 li{	
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 5px;
 	}
 	li .active{
 	color:#80ded9;
