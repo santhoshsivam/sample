@@ -95,6 +95,9 @@ height: 250px;
 	background-color: #dcffcc;
 	color:grey;
 }
+	.middle-home a{
+	padding:10px;
+	}
 .insta a{
 	padding:10px;
 	text-decoration: none;
