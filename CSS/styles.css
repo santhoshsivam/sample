@@ -14,13 +14,16 @@
   * {
     box-sizing: border-box;
   }
+ 
   .homeimage{
+
+	width: 100%;
+	height:200vh;
 	display:block;
 	background-image: url("../images/superman.png");
-	background-size:200vh 200vh;
+	background-size: cover;
 	background-repeat: no-repeat;
 	opacity: 0.6;
-
 }
 .homeimage-container{
 	text-align: center;
