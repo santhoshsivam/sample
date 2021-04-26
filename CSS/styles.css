@@ -398,7 +398,8 @@ span{
 	width: 70%;background-color: lightgrey;
 	border-radius: 40px;
 	color: grey;
-	font-size: 10px;height: 350px;
+	float: center;
+	font-size: 15px;height: 350px;
 	animation-name:contact-form;
 	animation-duration: 2s;
 }
@@ -408,13 +409,14 @@ span{
 }
 .contact-form p{
 		margin:0;
+		padding: 0;
 }
 .contact-form h3{
 margin-left: 10px;
 	margin-bottom: 10px;
 	margin-top: 40px;
 	padding-top: 30px;
-	font-size: 10px;
+	font-size: 12px;
 }
 .contact-form-2{
 	margin-top: 60px;
@@ -423,7 +425,7 @@ margin-left: 10px;
 	height: 300px;
 	background-color: lightgrey;
 	color: grey;
-	font-size: 10px;
+	font-size: 12px;
 	border-radius: 40px;
 	animation-name:contact-form-2;
 	animation-duration: 2s;
@@ -446,7 +448,7 @@ margin-left: 10px;
 	padding-top: 40px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-	font-size: 10px;
+	font-size: 12px;
 	}
 
 
